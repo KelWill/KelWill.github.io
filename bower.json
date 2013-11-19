@@ -1,0 +1,21 @@
+{
+  "name": "personalSite",
+  "version": "0.0.0",
+  "authors": [
+    "Will Keleher <will.keleher@gmail.com>"
+  ],
+  "description": "a simple personal site with projects, + links to blog, linkedin, etc",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "jquery": "~2.0.3",
+    "backbone": "~1.1.0"
+  }
+}
