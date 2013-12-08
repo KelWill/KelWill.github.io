@@ -1,0 +1,56 @@
+#me {
+  border-radius: 100px;
+}
+
+.everything {
+  background-color: lightgrey;
+}
+.me {
+  background-color: lightblue;
+  width: 60%;
+  margin: auto;
+  min-width: 280px;
+}
+.willPic {
+  height: 150px;
+}
+
+.me p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.carousel-caption h3, .carousel-caption p {
+  color: black;
+}
+a.carousel-control.left, a.carousel-control.right {
+  background-color: none;
+  background: none;
+  background-image: none;
+}
+.glyphicon {
+  color: black;
+}
+div.personalLinks {
+  width: 100%;
+}
+.personalLinks img {
+  width: 5%;
+  min-width: 50px;
+  margin-left: 1.8%;
+  margin-right: 1.8%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+h1{
+  border-bottom: none;
+}
+
+.left {
+  background: lightgray;
+}
