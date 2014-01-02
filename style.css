@@ -2,23 +2,55 @@
   border-radius: 100px;
 }
 
+body {
+/*  font-family: Impact, Charcoal, sans-serif;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.description {
+  max-width: 480px;
+  margin: auto;
+}
+
+.row {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  display: block;
+  height: 500px;
+  line-height: 1;
+  margin: auto;
+}
+
 .everything {
-  background-color: lightgrey;
+  background-color: #fff;
 }
 .me {
-  background-color: lightblue;
-  width: 60%;
+  background-color: #fff;
+  width: 100%;
   margin: auto;
   min-width: 280px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.me p {
+  max-width: 700px;
+  margin: auto;
+}
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .willPic {
   height: 150px;
 }
 
-.me p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 .carousel-caption h3, .carousel-caption p {
   color: black;
 }
@@ -27,6 +59,7 @@ a.carousel-control.left, a.carousel-control.right {
   background: none;
   background-image: none;
 }
+
 .glyphicon {
   color: black;
 }
@@ -49,8 +82,4 @@ div.personalLinks {
 
 h1{
   border-bottom: none;
-}
-
-.left {
-  background: lightgray;
 }
